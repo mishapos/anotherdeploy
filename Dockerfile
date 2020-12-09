@@ -1,4 +1,4 @@
-FROM mishapos/basic-deploy:latest
+FROM mishapos/static-web-apps-deploy:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
